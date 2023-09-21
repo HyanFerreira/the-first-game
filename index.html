@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>The Game First</title>
+</head>
+
+<body>
+    <main>
+        <div class="game-board">
+            <img src="img/clouds.png" class="nuvens">
+            <img src="img/mario.gif" class="mario">
+            <img src="img/pipe.png" class="pipe">
+        </div>
+        <h3 class="score">
+            <center>Score</center>
+        </h3>
+        <div class="pont-zero">
+            <center>
+                <h3 id="counter-label">0</h3>
+                <ul id="top-scores-list">
+                    <!-- Os top 5 scores serão exibidos aqui -->
+                </ul>
+            </center>
+        </div>
+        <button id="reload-button" style="display: none;">Recomeçar</button>
+    </main>
+    <script src="./Js/script.js" defer></script>
+</body>
+
+</html>
